@@ -7,6 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    /* outline: 1px solid red !important; */
 }
 
 .container {
@@ -226,16 +227,16 @@
     text-align: left;
     color: white;
     border: none;
+    transition: all 400ms linear;
 }
 
 .feedBtn:hover {
     background: #2C49FE1A;
     color: #000000;
+box-shadow: 0px 0px 20px 0px #2C49FE;
 }
 
-.gap-99 {
-    gap: 99px;
-}
+
 
 .showBtn {
     height: 46px;
@@ -250,11 +251,13 @@
     text-align: left;
     color: white;
     border: none;
+    transition: all 400ms linear;
 }
 
 .showBtn:hover {
     background: #2C49FE1A;
     color: #000000;
+    box-shadow: 0px 0px 20px 0px #2C49FE;
 }
 
 .gap-13 {
@@ -441,8 +444,13 @@
 .gap-10 {
     gap: 10px;
 }
-.gap-18{
+
+.gap-18 {
     gap: 18px;
+}
+
+.gap-100 {
+    gap: 100px;
 }
 
 .home {
@@ -529,12 +537,276 @@
     color: #000000;
     opacity: 60%;
 }
-.height{
+
+.height {
     height: 56px;
 }
-.gap-5{
+
+.gap-5 {
     gap: 5px;
 }
-.ml-20{
+
+.ml-20 {
     margin-left: 20px;
+}
+
+.py-20 {
+    padding: 20px 0;
+}
+
+.bg-black {
+    background: #000000;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.lorem1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 346px;
+}
+
+.mt-36 {
+    margin-top: 36px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.services {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.box {
+    max-width: 105px;
+    height: 67px;
+    background: #2D3CAE87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-13 {
+    margin-top: 13px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.mt-61 {
+    margin-top: 61px;
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+
+.j-c-e {
+    justify-content: end;
+}
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.pt-96 {
+    padding-top: 96px;
+}
+
+.d-none {
+    display: none;
+}
+
+.menu {
+    padding: 15px;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    left: 0%;
+}
+
+.nav-icon {
+    position: fixed;
+    right: 4%;
+}
+
+.lg-view {
+    display: none;
+}
+
+.text-nowrap {
+    text-wrap: nowrap !important;
+}
+
+.flex_wrap {
+    flex-wrap: wrap;
+}
+
+
+@media (min-width: 1200px) {
+    .gap-99 {
+        gap: 99px;
+    }
+}
+
+@media (max-width: 992px) {
+    .lg-view {
+        position: fixed;
+        width: 100%;
+        height: 102vh;
+        top: 0;
+        left: -150%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 3;
+        transition: all 400ms linear;
+        gap: 20px;
+    }
+
+    .nav-icon {
+        z-index: 4;
+    }
+
+    .show {
+        left: 0%;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .max-col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .max-lg-jcc {
+        justify-content: center;
+    }
+
+    .max-width_img {
+        max-width: 600px;
+    }
+.pt_20{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .f-direction-lg-row {
+        flex-direction: row;
+    }
+
+    .nav-icon {
+        display: none;
+    }
+
+    .lg-view {
+        display: flex;
+    }
+
+    .gap-64 {
+        gap: 64px;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 768px) {
+    .overflow_x_scroll {
+        overflow-x: scroll;
+    }
 }
