@@ -233,7 +233,7 @@
 .feedBtn:hover {
     background: #2C49FE1A;
     color: #000000;
-box-shadow: 0px 0px 20px 0px #2C49FE;
+    box-shadow: 0px 0px 20px 0px #2C49FE;
 }
 
 
@@ -696,7 +696,7 @@ box-shadow: 0px 0px 20px 0px #2C49FE;
     flex-wrap: wrap;
 }
 
-
+ 
 @media (min-width: 1200px) {
     .gap-99 {
         gap: 99px;
@@ -745,9 +745,20 @@ box-shadow: 0px 0px 20px 0px #2C49FE;
     .max-width_img {
         max-width: 600px;
     }
-.pt_20{
-    padding-top: 20px;
-}
+
+    .pt_20 {
+        padding-top: 20px;
+    }
+
+    .max-lg-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .flex-col-rev {
+        flex-direction: column-reverse;
+    }
 
 
 
@@ -808,5 +819,13 @@ box-shadow: 0px 0px 20px 0px #2C49FE;
 @media (max-width: 768px) {
     .overflow_x_scroll {
         overflow-x: scroll;
+    }
+
+    .mt-141 {
+        margin-top: 35px;
+    }
+
+    .mt-100 {
+        margin-top: 25px;
     }
 }
