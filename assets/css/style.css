@@ -195,7 +195,7 @@
 
 .doe {
     font-family: 'Poppins', sans-serif;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 600;
     line-height: 72px;
     text-align: left;
@@ -216,7 +216,7 @@
 
 .feedBtn {
     height: 46px;
-    padding: 11px 28px 11px 28px;
+    padding: 9px 15px 9px 15px;
     gap: 10px;
     border-radius: 23px;
     background: #2C49FE;
@@ -240,7 +240,7 @@
 
 .showBtn {
     height: 46px;
-    padding: 11px 28px 11px 28px;
+    padding: 9px 20px 9px 20px;
     gap: 10px;
     border-radius: 23px;
     background: #2C49FE;
@@ -436,9 +436,16 @@
 }
 
 .box-1 {
-    min-height: 70px;
+    /* min-height: 70px; */
+    padding-top: 7px;
+    padding-bottom: 7px;
     border: 1px solid #9CA1BE;
     border-radius: 35px;
+
+}
+
+.gap-21 {
+    gap: 21px;
 }
 
 .gap-10 {
@@ -463,6 +470,7 @@
     opacity: 60%;
 }
 
+
 .input-1 {
     background: transparent;
     outline: none;
@@ -470,6 +478,7 @@
     width: 75%;
     font-size: 20px;
 }
+
 
 .input-1::placeholder {
     font-family: "Poppins", sans-serif;
@@ -613,8 +622,8 @@
 }
 
 .box {
-    max-width: 105px;
-    height: 67px;
+    width: 100%;
+    height: 80%;
     background: #2D3CAE87;
     display: flex;
     justify-content: center;
@@ -696,71 +705,71 @@
     flex-wrap: wrap;
 }
 
- 
+
 @media (min-width: 1200px) {
     .gap-99 {
         gap: 99px;
     }
-}
 
-@media (max-width: 992px) {
-    .lg-view {
-        position: fixed;
-        width: 100%;
-        height: 102vh;
-        top: 0;
-        left: -150%;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        z-index: 3;
-        transition: all 400ms linear;
-        gap: 20px;
+
+    @media (max-width: 992px) {
+        .lg-view {
+            position: fixed;
+            width: 100%;
+            height: 102vh;
+            top: 0;
+            left: -150%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 3;
+            transition: all 400ms linear;
+            gap: 20px;
+        }
+
+        .nav-icon {
+            z-index: 4;
+        }
+
+        .show {
+            left: 0%;
+        }
+
+        .flex-wrap {
+            flex-wrap: wrap;
+        }
+
+        .max-col-12 {
+            width: 100%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .max-lg-jcc {
+            justify-content: center;
+        }
+
+        .max-width_img {
+            max-width: 600px;
+        }
+
+        .pt_20 {
+            padding-top: 20px;
+        }
+
+        .max-lg-12 {
+            width: 100%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .flex-col-rev {
+            flex-direction: column-reverse;
+        }
+
     }
-
-    .nav-icon {
-        z-index: 4;
-    }
-
-    .show {
-        left: 0%;
-    }
-
-    .flex-wrap {
-        flex-wrap: wrap;
-    }
-
-    .max-col-12 {
-        width: 100%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .max-lg-jcc {
-        justify-content: center;
-    }
-
-    .max-width_img {
-        max-width: 600px;
-    }
-
-    .pt_20 {
-        padding-top: 20px;
-    }
-
-    .max-lg-12 {
-        width: 100%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .flex-col-rev {
-        flex-direction: column-reverse;
-    }
-
-
 
 
 
@@ -827,5 +836,39 @@
 
     .mt-100 {
         margin-top: 25px;
+    }
+
+    .col-mx-md-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .flex-sm-wrap {
+        flex-wrap: wrap;
+    }
+
+    .col-max-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-max-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .mr-t-13 {
+        margin-top: 13px;
+    }
+
+    .photos {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
